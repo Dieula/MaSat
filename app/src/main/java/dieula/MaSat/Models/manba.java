@@ -56,19 +56,19 @@ public class manba implements Serializable {
         manba favori = new manba();
         favori.setTitle("Détails");
         favori.setImage(R.mipmap.heart);
-        favori.setImage1(R.mipmap.placeholder);
-        favori.setImage2(R.drawable.ta);
+        favori.setImage1(R.mipmap.ic_buy);
+        favori.setImage2(R.drawable.sa);
 
         manba favori1 = new manba();
         favori1.setTitle("Détails");
         favori1.setImage(R.mipmap.heart);
-        favori1.setImage1(R.mipmap.placeholder);
+        favori.setImage1(R.mipmap.ic_buy);
         favori1.setImage2(R.drawable.ra);
 
         manba favori2 = new manba();
         favori2.setTitle("Détails");
         favori2.setImage(R.mipmap.heart);
-        favori2.setImage1(R.mipmap.placeholder);
+        favori.setImage1(R.mipmap.ic_buy);
         favori2.setImage2(R.drawable.ma);
 
 

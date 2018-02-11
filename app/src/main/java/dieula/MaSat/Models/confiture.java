@@ -67,7 +67,7 @@ public class confiture implements Serializable{
         Koutye.setTitle("Détails");
         Koutye.setTitle1("Delmas 242");
         Koutye.setImage(R.mipmap.heart);
-        Koutye.setImage1(R.mipmap.placeholder);
+        Koutye.setImage1(R.mipmap.ic_buy);
         Koutye.setImage2(R.drawable.ma);
 
         confiture Koutye1 = new confiture();
@@ -75,7 +75,7 @@ public class confiture implements Serializable{
         Koutye1.setTitle1("Delmas 24\n" +
                 "Rue paul Eugene Magloire");
         Koutye1.setImage(R.mipmap.heart);
-        Koutye1.setImage1(R.mipmap.placeholder);
+        Koutye.setImage1(R.mipmap.ic_buy);
         Koutye1.setImage2(R.drawable.sa);
 
         confiture Koutye2 = new confiture();
@@ -83,8 +83,8 @@ public class confiture implements Serializable{
         Koutye.setTitle1("Delmas 24\n" +
                 "Rue paul Eugene Magloire");
         Koutye2.setImage(R.mipmap.heart);
-        Koutye2.setImage1(R.mipmap.placeholder);
-        Koutye2.setImage2(R.drawable.ta);
+        Koutye.setImage1(R.mipmap.ic_buy);
+        Koutye2.setImage2(R.drawable.ra);
 
 
         results.add(Koutye);

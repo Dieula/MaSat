@@ -91,12 +91,23 @@
                         android:textColor="#ff272727"
                         android:textSize="15sp"
                         tools:ignore="HardcodedText" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cette confiture est délicieuse sur des tartines,
+ pour aromatiser des yaourts, mais aussi pour accompagner du foie gras."
+                        android:gravity="center"
+                        tools:ignore="HardcodedText" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text=""/>
-
+                        android:text="Comment"
+                        android:textSize="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="240dp"
+                        android:textColor="@color/colorPrimary"
+                        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
                 </LinearLayout>
 
 <RelativeLayout
@@ -104,6 +115,7 @@
     android:layout_height="wrap_content"
     android:layout_below="@+id/linearIn"
     android:orientation="horizontal"
+    android:layout_marginTop="30dp"
     android:weightSum="1">
 
                 <android.support.design.widget.FloatingActionButton
@@ -116,7 +128,8 @@
                     android:layout_marginBottom="80dp"
                     android:layout_marginLeft="@dimen/fab_margin"
                     android:layout_marginRight="@dimen/fab_margin"
-                    card_view:srcCompat="@android:drawable/ic_menu_share" />
+                    card_view:srcCompat="@android:drawable/ic_menu_share"
+                    tools:ignore="RelativeOverlap" />
 
 
                 <android.support.design.widget.FloatingActionButton
@@ -126,9 +139,10 @@
                     android:layout_alignBottom="@+id/btnshare"
                     android:layout_gravity="top"
                     android:layout_marginTop="30dp"
-                    android:layout_marginLeft="160dp"
+                    android:layout_marginLeft="150dp"
                     android:layout_marginRight="@dimen/fab_margin"
-                    card_view:srcCompat="@mipmap/ic_favorite" />
+                    card_view:srcCompat="@mipmap/ic_favorite"
+                    tools:ignore="RtlHardcoded" />
 
                 <android.support.design.widget.FloatingActionButton
                     android:id="@+id/btnbuy"
@@ -137,9 +151,11 @@
                     android:layout_gravity="top"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="@dimen/fab_margin"
-                    card_view:srcCompat="@mipmap/ic_buy" />
+                    card_view:srcCompat="@mipmap/ic_buyy"
+                    tools:ignore="RtlHardcoded" />
 
             </RelativeLayout>
+
 
 </RelativeLayout>
 

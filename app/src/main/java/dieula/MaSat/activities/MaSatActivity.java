@@ -22,6 +22,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import dieula.MaSat.fragment.FavoriteFragment;
 import dieula.MaSat.fragment.ManbaFragment;
 import dieula.MaSat.fragment.ConfitureFragment;
 import dieula.MaSat.R;
@@ -155,10 +156,10 @@ public class MaSatActivity extends AppCompatActivity
             {
                 return new ConfitureFragment();
             }
-           /* else if (position == 2)
+           else if (position == 2)
             {
-             return new ConfitureFragment();
-            }*/
+             return new FavoriteFragment();
+            }
             else
             {
                     // Return a PlaceholderFragment (defined as a static inner class below).
@@ -195,7 +196,6 @@ public class MaSatActivity extends AppCompatActivity
           Fragment fragment;
 
         if (id == R.id.nav_acceuil) {
-
 
         } else if (id == R.id.nav_maisons) {
 

@@ -1,13 +1,141 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#cc6600"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     tools:context="dieula.MaSat.fragment.FavoriteFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:textColor="#cc6600"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:id="@+id/ivrecette"
+                    android:layout_width="fill_parent"
+                    android:layout_height="250dp"
+                    android:background="@drawable/ma"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ContentDescription" />
+
+
+                <TextView
+                    android:id="@+id/titlerecette"
+                    android:layout_width="fill_parent"
+                    android:layout_height="110dp"
+                    android:layout_alignParentStart="true"
+                    android:alpha="0.8"
+                    android:padding="1dp"
+                    android:layout_marginTop="-55dp"
+                    android:background="#5c1b1b1b"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:text="Nom Produit"
+                    android:textColor="#fff"
+                    android:textSize="22sp"
+                    tools:ignore="HardcodedText" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linearIn"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="-55dp"
+                    android:weightSum="1"
+                    android:background="#FFF"
+                    tools:ignore="UnknownIdInLayout">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/btnshare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/textView4"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="bottom|end"
+                        android:layout_marginBottom="80dp"
+                        android:layout_marginLeft="@dimen/fab_margin"
+                        android:layout_marginRight="@dimen/fab_margin"
+                        card_view:srcCompat="@android:drawable/ic_menu_share"
+                        tools:ignore="RelativeOverlap" />
+
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/btnfavorite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/btnshare"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginRight="@dimen/fab_margin"
+                        card_view:srcCompat="@mipmap/ic_favorite"
+                        tools:ignore="RtlHardcoded" />
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/btnbuy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="@dimen/fab_margin"
+                        card_view:srcCompat="@mipmap/ic_buyy"
+                        tools:ignore="RtlHardcoded" />
+
+                </RelativeLayout>
+
+          <!--  <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="-50dp"
+                android:background="#FFF"
+                android:layout_marginBottom="10dp">
+
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        tools:ignore="RtlHardcoded"
+                        android:background="@drawable/k"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="-40dp"
+                        android:text="Dieula"
+                        android:textColor="@color/colorPrimary"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Woow saveur sa trop bon!
+ Merci beaucoup,ça m'a beaucoup plu."
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="60dp"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+
+
+            </LinearLayout>-->
+
+            </LinearLayout>
+</ScrollView>
