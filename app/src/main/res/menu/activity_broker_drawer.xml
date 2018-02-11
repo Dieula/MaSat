@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_acceuil"
+            android:icon="@mipmap/ic_home"
+            android:title="Accueil" />
+        <item
+            android:id="@+id/nav_maisons"
+            android:icon="@drawable/ic_menu_maisons"
+            android:title="Manba" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@mipmap/ic_favorite"
+            android:title="Confiture" />
+
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@mipmap/ic_contact"
+            android:title="Contacts" />
+
+        <item
+            android:id="@+id/nav_temoignage"
+            android:icon="@mipmap/ic_contact"
+            android:title="Témoignage" />
+
+        <item
+            android:id="@+id/nav_mesure"
+            android:icon="@mipmap/ic_contact"
+            android:title="Sur Mesure" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_favorite"
+                android:icon="@mipmap/ic_feed"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_apropos"
+                android:icon="@mipmap/ic_about"
+                android:title="A propos" />
+        </menu>
+    </item>
+
+</menu>

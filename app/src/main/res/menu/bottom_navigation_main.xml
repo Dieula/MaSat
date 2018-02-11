@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_vendre"
+        android:enabled="true"
+        android:icon="@mipmap/ic_button"
+        android:title="Vendre"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_fovorite"
+        android:enabled="true"
+        android:icon="@mipmap/heart"
+        android:title="Favorites"
+        app:showAsAction="ifRoom" />
+
+</menu>
