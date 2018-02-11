@@ -21,6 +21,7 @@
             android:layout_height="500dp"
             android:id="@+id/lvGrid"
             android:divider="@null"
+            android:layout_marginTop="5dp"
             android:dividerHeight="0dp"
             android:layout_marginBottom="5dp">
         </ListView>

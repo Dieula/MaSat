@@ -30,7 +30,7 @@ public class PriceFragment extends Fragment {
             // Inflate the layout for this fragment
             View v = inflater.inflate(R.layout.fragment_price, container, false);
 
-            List = (ListView)v.findViewById(R.id.lvGrid);
+            List =  v.findViewById(R.id.lvGrid);
 
             List.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
