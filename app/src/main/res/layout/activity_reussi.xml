@@ -6,10 +6,32 @@
     android:layout_height="match_parent"
     tools:context="dieula.MaSat.activities.ReussiActivity">
 
-    <ImageView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="180dp"/>
+        android:orientation="vertical">
+
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="200dp"
+         android:layout_marginTop="60dp"
+         android:background="@mipmap/ic_launcher"
+         android:layout_marginRight="10dp"
+         android:layout_marginLeft="10dp"
+         android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Votre comande a été fait avec succès
+Vous aurez votre produit dans 2 jours Madame DAREUS!
+Merci pour votre comprehension"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"/>
+
+
+
+    </LinearLayout>
 
 </RelativeLayout>

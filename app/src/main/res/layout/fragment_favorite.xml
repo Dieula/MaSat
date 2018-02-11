@@ -29,11 +29,11 @@
                 <TextView
                     android:id="@+id/titlerecette"
                     android:layout_width="fill_parent"
-                    android:layout_height="110dp"
+                    android:layout_height="100dp"
                     android:layout_alignParentStart="true"
                     android:alpha="0.8"
                     android:padding="1dp"
-                    android:layout_marginTop="-55dp"
+                    android:layout_marginTop="-10dp"
                     android:background="#5c1b1b1b"
                     android:paddingLeft="@dimen/activity_horizontal_margin"
                     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -48,10 +48,20 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/linearIn"
                     android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginTop="-55dp"
                     android:weightSum="1"
                     android:background="#FFF"
                     tools:ignore="UnknownIdInLayout">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prix: 500 gourdes"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="20dp"/>
 
                     <android.support.design.widget.FloatingActionButton
                         android:id="@+id/btnshare"
@@ -83,7 +93,6 @@
                         android:id="@+id/btnbuy"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="top"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="@dimen/fab_margin"
                         card_view:srcCompat="@mipmap/ic_buyy"
