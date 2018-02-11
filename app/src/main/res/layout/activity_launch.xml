@@ -12,6 +12,6 @@
         android:layout_height="1660dp"
         android:layout_centerInParent="true"
         android:screenOrientation="portrait"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/saveur"
         tools:ignore="ContentDescription" />
 </RelativeLayout>
