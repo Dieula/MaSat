@@ -63,7 +63,7 @@ public class favori implements Serializable {
         favori1.setTitle("Détails");
         favori1.setImage(R.mipmap.heart);
         favori1.setImage1(R.mipmap.placeholder);
-        favori1.setImage2(R.drawable.sa);
+        favori1.setImage2(R.drawable.ra);
 
         favori favori2 = new favori();
         favori2.setTitle("Détails");

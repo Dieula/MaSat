@@ -68,7 +68,7 @@ public class Koutye implements Serializable{
         Koutye.setTitle1("Delmas 242");
         Koutye.setImage(R.mipmap.heart);
         Koutye.setImage1(R.mipmap.placeholder);
-        Koutye.setImage2(R.drawable.ya);
+        Koutye.setImage2(R.drawable.ma);
 
         Koutye Koutye1 = new Koutye();
         Koutye1.setTitle("Détails");
@@ -76,7 +76,7 @@ public class Koutye implements Serializable{
                 "Rue paul Eugene Magloire");
         Koutye1.setImage(R.mipmap.heart);
         Koutye1.setImage1(R.mipmap.placeholder);
-        Koutye1.setImage2(R.drawable.ra);
+        Koutye1.setImage2(R.drawable.sa);
 
         Koutye Koutye2 = new Koutye();
         Koutye2.setTitle("Détails");
