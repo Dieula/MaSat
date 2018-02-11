@@ -17,7 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activities.KoutyeActivity"
+            android:name=".activities.MaSatActivity"
             android:label="Ma_Sat"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
@@ -28,7 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".fragment.VendreActivity" />
+        <activity android:name=".activities.DetailsActivity" />
         <activity android:name=".activities.LoginActivity" />
         <activity android:name=".activities.InscriptionActivity" />
         <!--
@@ -46,7 +46,6 @@
         <activity
             android:name=".fragment.LocalisationActivity"
             android:label="@string/title_activity_localisation" />
-        <activity android:name=".activities.DetailsActivity"></activity>
     </application>
 
 </manifest>

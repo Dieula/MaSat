@@ -17,7 +17,7 @@ public class InscriptionActivity extends AppCompatActivity {
     }
 
     public void OnLogButton(View v) {
-        Intent i = new Intent(InscriptionActivity.this, KoutyeActivity.class);
+        Intent i = new Intent(InscriptionActivity.this, MaSatActivity.class);
         startActivity(i);
     }
 }

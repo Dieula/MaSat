@@ -5,7 +5,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_
 android:layout_height="match_parent"
 app:layout_behavior="@string/appbar_scrolling_view_behavior"
 tools:context="dieula.MaSat.dieula.MaSat.activities.KoutyeActivity"
-tools:showIn="@layout/app_bar_broker">
+tools:showIn="@layout/app_bar_masat">
 
 
 <FrameLayout

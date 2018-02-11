@@ -3,7 +3,6 @@ package dieula.MaSat.fragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +14,7 @@ import java.util.ArrayList;
 import dieula.MaSat.Adapter.ArrayAdapterFavori;
 import dieula.MaSat.Models.favori;
 import dieula.MaSat.R;
+import dieula.MaSat.activities.DetailsActivity;
 
 
 public class PriceFragment extends Fragment {
@@ -35,7 +35,7 @@ public class PriceFragment extends Fragment {
             List.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                    Intent intent = new Intent(getActivity(), VendreActivity.class);
+                    Intent intent = new Intent(getActivity(), DetailsActivity.class);
                     startActivity(intent);
                 }
             });

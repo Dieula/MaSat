@@ -17,7 +17,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void OnLogButton(View v){
-        Intent i = new Intent(LoginActivity.this, KoutyeActivity.class);
+        Intent i = new Intent(LoginActivity.this, MaSatActivity.class);
         startActivity(i);
     }
 }

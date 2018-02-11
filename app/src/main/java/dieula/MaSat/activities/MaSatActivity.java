@@ -25,9 +25,8 @@ import android.widget.TextView;
 import dieula.MaSat.fragment.FavoriteFragment;
 import dieula.MaSat.fragment.PriceFragment;
 import dieula.MaSat.R;
-import dieula.MaSat.fragment.VendreActivity;
 
-public class KoutyeActivity extends AppCompatActivity
+public class MaSatActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private SectionsPagerAdapter mSectionsPagerAdapter;
@@ -42,9 +41,9 @@ public class KoutyeActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_broker);
-    //    Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-      //  setSupportActionBar(toolbar);
+        setContentView(R.layout.activity_masat);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
@@ -72,12 +71,7 @@ public class KoutyeActivity extends AppCompatActivity
 
     }
     public void OnLogButton(View v) {
-        Intent i = new Intent(KoutyeActivity.this, VendreActivity.class);
-        startActivity(i);
-
-    }
-    public void onLogButton(View v) {
-        Intent i = new Intent(KoutyeActivity.this, VendreActivity.class);
+        Intent i = new Intent(MaSatActivity.this, DetailsActivity.class);
         startActivity(i);
 
     }
@@ -94,7 +88,7 @@ public class KoutyeActivity extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.broker, menu);
+        getMenuInflater().inflate(R.menu.masat, menu);
         //Inflate the button
 
 
@@ -135,7 +129,7 @@ public class KoutyeActivity extends AppCompatActivity
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.app_bar_broker, container, false);
+            View rootView = inflater.inflate(R.layout.app_bar_masat, container, false);
             //  TextView textView = (TextView) rootView.findViewById(R.id.section_label);
             //  textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             return rootView;
@@ -175,7 +169,7 @@ public class KoutyeActivity extends AppCompatActivity
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 2;
+            return 3;
         }
 
         @Override
@@ -185,8 +179,8 @@ public class KoutyeActivity extends AppCompatActivity
                     return "Manba";
                 case 1:
                     return "Confiture";
-               /* case 2:
-                    return "Filtre";*/
+               case 2:
+                    return "Favorite";
             }
             return null;
         }
