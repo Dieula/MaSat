@@ -12,15 +12,15 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 import dieula.MaSat.Adapter.ArrayAdapterFavori;
-import dieula.MaSat.Models.favori;
+import dieula.MaSat.Models.manba;
 import dieula.MaSat.R;
 import dieula.MaSat.activities.DetailsActivity;
 
 
-public class PriceFragment extends Fragment {
+public class ConfitureFragment extends Fragment {
 
     ArrayAdapterFavori koutyeadapter;
-    ArrayList<favori> aKoutye;
+    ArrayList<manba> aKoutye;
     ListView List;
 
 
@@ -28,7 +28,7 @@ public class PriceFragment extends Fragment {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
             // Inflate the layout for this fragment
-            View v = inflater.inflate(R.layout.fragment_price, container, false);
+            View v = inflater.inflate(R.layout.fragment_confiture, container, false);
 
             List =  v.findViewById(R.id.lvGrid);
 
@@ -44,7 +44,7 @@ public class PriceFragment extends Fragment {
             koutyeadapter = new ArrayAdapterFavori(getActivity(), aKoutye);
             List.setAdapter(koutyeadapter);
 
-            koutyeadapter.addAll(favori.fromFakeData());
+            koutyeadapter.addAll(manba.fromFakeData());
             koutyeadapter.notifyDataSetChanged();
             return v;
     }

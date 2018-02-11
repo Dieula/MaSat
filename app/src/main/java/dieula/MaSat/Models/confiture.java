@@ -9,7 +9,7 @@ import dieula.MaSat.R;
  * Created by East Coast Pawn on 9/29/2017.
  */
 
-public class Koutye implements Serializable{
+public class confiture implements Serializable{
 
 
     public void setTitle(String title) {
@@ -57,20 +57,20 @@ public class Koutye implements Serializable{
 
     String title1;
 
-    public Koutye() {
+    public confiture() {
     }
 
-    public static ArrayList<Koutye> fromFakeData() {
-        ArrayList<Koutye> results = new ArrayList<>();
+    public static ArrayList<confiture> fromFakeData() {
+        ArrayList<confiture> results = new ArrayList<>();
 
-        Koutye Koutye = new Koutye();
+        confiture Koutye = new confiture();
         Koutye.setTitle("Détails");
         Koutye.setTitle1("Delmas 242");
         Koutye.setImage(R.mipmap.heart);
         Koutye.setImage1(R.mipmap.placeholder);
         Koutye.setImage2(R.drawable.ma);
 
-        Koutye Koutye1 = new Koutye();
+        confiture Koutye1 = new confiture();
         Koutye1.setTitle("Détails");
         Koutye1.setTitle1("Delmas 24\n" +
                 "Rue paul Eugene Magloire");
@@ -78,7 +78,7 @@ public class Koutye implements Serializable{
         Koutye1.setImage1(R.mipmap.placeholder);
         Koutye1.setImage2(R.drawable.sa);
 
-        Koutye Koutye2 = new Koutye();
+        confiture Koutye2 = new confiture();
         Koutye2.setTitle("Détails");
         Koutye.setTitle1("Delmas 24\n" +
                 "Rue paul Eugene Magloire");

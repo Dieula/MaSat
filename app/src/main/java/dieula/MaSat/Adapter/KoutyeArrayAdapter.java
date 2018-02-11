@@ -10,15 +10,15 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import dieula.MaSat.Models.Koutye;
+import dieula.MaSat.Models.confiture;
 import dieula.MaSat.R;
 
 /**
  * Created by East Coast Pawn on 9/29/2017.
  */
 
-public class KoutyeArrayAdapter  extends ArrayAdapter<Koutye> {
-    public KoutyeArrayAdapter(Context context, ArrayList<Koutye> service) {
+public class KoutyeArrayAdapter  extends ArrayAdapter<confiture> {
+    public KoutyeArrayAdapter(Context context, ArrayList<confiture> service) {
         super(context, android.R.layout.simple_list_item_1, service);
     }
 
@@ -26,7 +26,7 @@ public class KoutyeArrayAdapter  extends ArrayAdapter<Koutye> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // get the data item for position
-        Koutye service = getItem(position);
+        confiture service = getItem(position);
 
         // check the existing view being reused
         if (convertView == null) {

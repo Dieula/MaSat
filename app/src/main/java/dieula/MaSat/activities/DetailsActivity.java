@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import dieula.MaSat.R;
-import dieula.MaSat.fragment.FavoriteFragment;
+import dieula.MaSat.fragment.ManbaFragment;
 
 
 public class DetailsActivity extends AppCompatActivity {
@@ -22,7 +22,7 @@ public class DetailsActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 // Respond to the action bar's Up/Home button
-                Intent i = new Intent(DetailsActivity.this, FavoriteFragment.class);
+                Intent i = new Intent(DetailsActivity.this, ManbaFragment.class);
                 startActivity(i);
                 finish();
                 return true;

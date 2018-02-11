@@ -22,8 +22,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import dieula.MaSat.fragment.FavoriteFragment;
-import dieula.MaSat.fragment.PriceFragment;
+import dieula.MaSat.fragment.ManbaFragment;
+import dieula.MaSat.fragment.ConfitureFragment;
 import dieula.MaSat.R;
 
 public class MaSatActivity extends AppCompatActivity
@@ -149,15 +149,15 @@ public class MaSatActivity extends AppCompatActivity
             // getItem is called to instantiate the fragment for the given page.
             if (position == 0)
             {
-            return new FavoriteFragment();
+            return new ManbaFragment();
             }
             else if (position == 1)
             {
-                return new PriceFragment();
+                return new ConfitureFragment();
             }
            /* else if (position == 2)
             {
-             return new PriceFragment();
+             return new ConfitureFragment();
             }*/
             else
             {

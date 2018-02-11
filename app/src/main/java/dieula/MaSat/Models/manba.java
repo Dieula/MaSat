@@ -9,7 +9,7 @@ import dieula.MaSat.R;
  * Created by East Coast Pawn on 1/13/2018.
  */
 
-public class favori implements Serializable {
+public class manba implements Serializable {
 
 
     public void setTitle(String title) {
@@ -47,25 +47,25 @@ public class favori implements Serializable {
     int image, image1,image2;
     String title;
 
-    public favori() {
+    public manba() {
     }
 
-    public static ArrayList<favori> fromFakeData() {
-        ArrayList<favori> results = new ArrayList<>();
+    public static ArrayList<manba> fromFakeData() {
+        ArrayList<manba> results = new ArrayList<>();
 
-        favori favori = new favori();
+        manba favori = new manba();
         favori.setTitle("Détails");
         favori.setImage(R.mipmap.heart);
         favori.setImage1(R.mipmap.placeholder);
         favori.setImage2(R.drawable.ta);
 
-        favori favori1 = new favori();
+        manba favori1 = new manba();
         favori1.setTitle("Détails");
         favori1.setImage(R.mipmap.heart);
         favori1.setImage1(R.mipmap.placeholder);
         favori1.setImage2(R.drawable.ra);
 
-        favori favori2 = new favori();
+        manba favori2 = new manba();
         favori2.setTitle("Détails");
         favori2.setImage(R.mipmap.heart);
         favori2.setImage1(R.mipmap.placeholder);
